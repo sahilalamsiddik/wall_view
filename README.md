@@ -103,7 +103,7 @@ node scripts/mincut-person-counter.js --port 5006  # Correct person counting
 Pre-trained models are available on HuggingFace:
 > **https://huggingface.co/ruv/ruview** (primary) | [mirror](https://huggingface.co/ruvnet/wifi-densepose-pretrained)
 
-Trained on 60,630 real-world samples from an 8-hour overnight collection. Just download and run — no datasets, no GPU, no training needed.
+Trained on 60,630 real-world samples from an 8-hour overnight collection. Just download and run — no datasets, no GPU, no training needed
 
 | Model | Size | What it does |
 |-------|------|-------------|
