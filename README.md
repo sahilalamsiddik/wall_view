@@ -74,7 +74,7 @@ python firmware/esp32-csi-node/provision.py --port COM9 \
 
 # Option 3: Full system with Cognitum Seed ($140)
 # ESP32 streams CSI → bridge forwards to Seed for persistent storage + kNN + witness chain
-node scripts/rf-scan.js --port 5006           # Live RF room scan
+node scripts/rf-scan.js --port 5006           
 node scripts/snn-csi-processor.js --port 5006  # SNN real-time learning
 node scripts/mincut-person-counter.js --port 5006  # Correct person counting
 ```
