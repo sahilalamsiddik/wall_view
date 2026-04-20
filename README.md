@@ -207,7 +207,7 @@ node scripts/train-wiflow.js --data data/recordings/*.csi.jsonl
 
 # Enable channel hopping on ESP32
 python firmware/esp32-csi-node/provision.py --port COM9 --hop-channels "1,6,11"
-```
+````
 
 **Validated benchmarks:**
 
