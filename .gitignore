@@ -13,7 +13,6 @@ firmware/esp32-csi-node/managed_components/
 firmware/esp32-csi-node/dependencies.lock
 firmware/esp32-csi-node/sdkconfig.defaults.bak
 
-# Claude Flow swarm runtime state
 .swarm/
 
 # CSI recordings (local training data, machine-specific)
